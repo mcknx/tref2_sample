@@ -1,0 +1,34 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+  <rect id="#bg" width="1050" height="600" fill="#ffffff" />
+
+  <!-- Large circle decoration top-right -->
+  <circle id="#color_primary" cx="950" cy="-50" r="350" fill="#1e293b" />
+  <circle id="#color_accent" cx="950" cy="-50" r="260" fill="none" stroke="#f59e0b" stroke-width="3" opacity="0.5" />
+  <circle id="#color_accent_ring2" cx="950" cy="-50" r="200" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.25" />
+
+  <!-- Small decorative circles bottom-left -->
+  <circle id="#color_accent_dot1" cx="80" cy="520" r="40" fill="#f59e0b" opacity="0.12" />
+  <circle id="#color_accent_dot2" cx="140" cy="560" r="20" fill="#f59e0b" opacity="0.08" />
+  <circle id="#color_accent_dot3" cx="40" cy="560" r="12" fill="#1e293b" opacity="0.06" />
+
+  <!-- Bottom line accent -->
+  <rect id="#color_accent_bottom" x="0" y="592" width="1050" height="8" fill="#f59e0b" />
+
+  <rect id="#logo" x="60" y="60" width="80" height="80" rx="14" fill="#f8fafc" />
+
+  <text id="#name" x="60" y="205" font-family="Inter, sans-serif" font-size="44" font-weight="700" fill="#0f172a">FULL NAME</text>
+  <text id="#title" x="60" y="240" font-family="Inter, sans-serif" font-size="18" letter-spacing="2" fill="#92400e">JOB TITLE</text>
+  <rect id="#color_accent_divider" x="60" y="260" width="100" height="3" rx="1.5" fill="#f59e0b" />
+
+  <circle id="#color_accent_phone_dot" cx="72" cy="300" r="4" fill="#f59e0b" />
+  <text id="#phone" x="90" y="305" font-family="Inter, sans-serif" font-size="16" fill="#475569">+1 (555) 000-0000</text>
+
+  <circle id="#color_accent_email_dot" cx="72" cy="335" r="4" fill="#f59e0b" />
+  <text id="#email" x="90" y="340" font-family="Inter, sans-serif" font-size="16" fill="#475569">hello@example.com</text>
+
+  <circle id="#color_accent_web_dot" cx="72" cy="370" r="4" fill="#f59e0b" />
+  <text id="#website" x="90" y="375" font-family="Inter, sans-serif" font-size="16" fill="#475569">www.example.com</text>
+
+  <circle id="#color_accent_addr_dot" cx="72" cy="405" r="4" fill="#f59e0b" />
+  <text id="#address" x="90" y="410" font-family="Inter, sans-serif" font-size="16" fill="#475569">123 Innovation Dr, Tech City</text>
+</svg>

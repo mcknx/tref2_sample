@@ -1,0 +1,107 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- ═══════════════════════════════════════════════════════════════════
+         CLEAN PROFESSIONAL — Bulletproof Business Card Template
+         
+         Layout:  Left sidebar (primary)  |  Right content area (white)
+         Size:    1050 × 600 px  (standard business card ratio)
+         
+         ID Conventions:
+           #bg              → base background (locked)
+           #color_primary   → brand primary color
+           #color_secondary → brand secondary color
+           #color_accent    → brand accent color
+           #logo            → logo placeholder (replaced by hydrator)
+           #name            → business/person name
+           #title           → job title / tagline
+           #phone           → phone number
+           #email           → email address
+           #website         → website URL
+           #address         → physical address
+         
+         Design rules for robustness:
+           • All elements are top-level (no nested groups)
+           • Contact fields start at x=530, leaving 50+ px for icons on left
+           • 55px vertical spacing between contact lines
+           • Simple rects & text only — no complex paths to break
+           • Color-mapped decorations use #color_accent_* IDs
+         ═══════════════════════════════════════════════════════════════════ -->
+
+    <!-- ── Base Background (locked by hydrator) ── -->
+    <rect id="#bg" x="0" y="0" width="1050" height="600" fill="#f8fafc" />
+
+    <!-- ── Left Sidebar Panel ── -->
+    <rect id="#color_primary" x="0" y="0" width="380" height="600" fill="#1e293b" />
+
+    <!-- Subtle lighter stripe inside sidebar -->
+    <rect id="#color_accent_sidebar_stripe" x="360" y="0" width="20" height="600" fill="#3b82f6" opacity="0.6" />
+
+    <!-- ── Logo Placeholder (in right content area) ── -->
+    <rect id="#logo" x="430" y="60" width="80" height="80" rx="10" fill="#f1f5f9" />
+
+    <!-- Decorative logo shape in sidebar (non-functional) -->
+    <rect x="115" y="70" width="150" height="150" rx="14" fill="#ffffff" opacity="0.12" />
+
+    <!-- Sidebar decorative name (non-functional, no ID) -->
+    <text x="190" y="260" font-family="Inter, sans-serif" font-weight="700" font-size="20" fill="#ffffff" opacity="0.4" text-anchor="middle">BRAND</text>
+
+    <!-- Decorative line under sidebar text -->
+    <rect id="#color_accent_title_line" x="120" y="280" width="120" height="3" rx="1.5" fill="#3b82f6" />
+
+    <!-- Sidebar bottom decorative elements -->
+    <rect id="#color_accent_sidebar_bottom1" x="40" y="500" width="300" height="1" fill="#ffffff" opacity="0.08" />
+    <rect id="#color_accent_sidebar_bottom2" x="40" y="520" width="200" height="1" fill="#ffffff" opacity="0.05" />
+    <rect id="#color_accent_sidebar_bottom3" x="40" y="540" width="100" height="1" fill="#ffffff" opacity="0.03" />
+
+    <!-- ── Right Content Area — all text in single column ── -->
+
+    <!-- Name -->
+    <text id="#name" x="430" y="195" font-family="Inter, sans-serif" font-weight="700" font-size="44" fill="#334155">Your Name</text>
+
+    <!-- Title -->
+    <text id="#title" x="430" y="228" font-family="Inter, sans-serif" font-weight="400" font-size="16" fill="#94a3b8" letter-spacing="2">YOUR TITLE</text>
+
+    <!-- Divider -->
+    <rect id="#color_accent_divider" x="430" y="250" width="80" height="3" rx="1" fill="#3b82f6" />
+
+    <!-- Contact -->
+    <circle id="#color_accent_phone_dot" cx="442" cy="285" r="4" fill="#3b82f6" />
+    <text id="#phone" x="460" y="290" font-family="Inter, sans-serif" font-weight="400" font-size="16" fill="#334155">+1 (555) 000-0000</text>
+
+    <circle id="#color_accent_email_dot" cx="442" cy="320" r="4" fill="#3b82f6" />
+    <text id="#email" x="460" y="325" font-family="Inter, sans-serif" font-weight="400" font-size="16" fill="#334155">hello@example.com</text>
+
+    <circle id="#color_accent_web_dot" cx="442" cy="355" r="4" fill="#3b82f6" />
+    <text id="#website" x="460" y="360" font-family="Inter, sans-serif" font-weight="400" font-size="16" fill="#334155">www.example.com</text>
+
+    <circle id="#color_accent_addr_dot" cx="442" cy="390" r="4" fill="#3b82f6" />
+    <text id="#address" x="460" y="395" font-family="Inter, sans-serif" font-weight="400" font-size="16" fill="#334155">123 Innovation Dr, Tech City</text>
+
+    <!-- ── Bottom Accent Bar (secondary color) ── -->
+    <rect id="#color_secondary" x="380" y="570" width="670" height="30" fill="#e2e8f0" />
+    <rect id="#color_accent_bottom_stripe" x="380" y="565" width="670" height="5" fill="#3b82f6" />
+
+    <!-- ── Decorative Elements (right area, non-intrusive) ── -->
+    <!-- Subtle corner accent top-right -->
+    <rect id="#color_accent_corner" x="980" y="0" width="70" height="70" fill="#3b82f6" opacity="0.06" />
+    <rect id="#color_accent_corner_inner" x="1000" y="0" width="50" height="50" fill="#3b82f6" opacity="0.06" />
+
+    <!-- Subtle dots grid in right area (non-selectable decoration) -->
+    <circle cx="920" cy="440" r="2" fill="#cbd5e1" opacity="0.4" />
+    <circle cx="940" cy="440" r="2" fill="#cbd5e1" opacity="0.4" />
+    <circle cx="960" cy="440" r="2" fill="#cbd5e1" opacity="0.4" />
+    <circle cx="980" cy="440" r="2" fill="#cbd5e1" opacity="0.4" />
+    <circle cx="920" cy="460" r="2" fill="#cbd5e1" opacity="0.4" />
+    <circle cx="940" cy="460" r="2" fill="#cbd5e1" opacity="0.4" />
+    <circle cx="960" cy="460" r="2" fill="#cbd5e1" opacity="0.4" />
+    <circle cx="980" cy="460" r="2" fill="#cbd5e1" opacity="0.4" />
+    <circle cx="920" cy="480" r="2" fill="#cbd5e1" opacity="0.4" />
+    <circle cx="940" cy="480" r="2" fill="#cbd5e1" opacity="0.4" />
+    <circle cx="960" cy="480" r="2" fill="#cbd5e1" opacity="0.4" />
+    <circle cx="980" cy="480" r="2" fill="#cbd5e1" opacity="0.4" />
+    <circle cx="920" cy="500" r="2" fill="#cbd5e1" opacity="0.4" />
+    <circle cx="940" cy="500" r="2" fill="#cbd5e1" opacity="0.4" />
+    <circle cx="960" cy="500" r="2" fill="#cbd5e1" opacity="0.4" />
+    <circle cx="980" cy="500" r="2" fill="#cbd5e1" opacity="0.4" />
+
+</svg>

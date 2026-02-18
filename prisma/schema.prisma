@@ -1,0 +1,26 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+}
+
+model Card {
+  id              String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  userId          String   @map("user_id") @db.Uuid
+  templateId      String   @map("template_id")
+  status          String   @default("not-finalized")
+  finalizedAt     DateTime? @map("finalized_at") @db.Timestamptz(6)
+  svgMarkup       String?  @map("svg_markup")
+  originalSvg     String?  @map("original_svg")
+  profileSnapshot Json     @map("profile_snapshot")
+  generationMeta  Json     @default("{}") @map("generation_meta")
+  createdAt       DateTime @default(now()) @map("created_at") @db.Timestamptz(6)
+  updatedAt       DateTime @default(now()) @map("updated_at") @db.Timestamptz(6)
+
+  @@index([userId, createdAt(sort: Desc)], map: "cards_user_id_created_at_idx")
+  @@index([templateId], map: "cards_template_id_idx")
+  @@map("cards")
+}

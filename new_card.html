@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern SVG Business Card</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            gap: 40px;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: center;
+        }
+
+        .card-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .label {
+            font-size: 0.9rem;
+            color: #6b7280;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        svg {
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            transition: transform 0.3s ease;
+        }
+
+        svg:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card-container">
+        <!-- FRONT SIDE -->
+        <div class="card-wrapper">
+            <span class="label">Front Side</span>
+            <svg width="525" height="300" viewBox="0 0 350 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+                    </linearGradient>
+                    <linearGradient id="blueWave" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+                    </linearGradient>
+                    <clipPath id="cardClip">
+                        <rect width="350" height="200" rx="10" />
+                    </clipPath>
+                </defs>
+
+                <g clip-path="url(#cardClip)">
+                    <!-- Background -->
+                    <rect width="350" height="200" fill="url(#grad1)" />
+
+                    <!-- Decorative Waves -->
+                    <path d="M 350 0 L 350 200 L 180 200 Q 260 100 180 0 Z" fill="#1e3a8a" opacity="0.3" />
+                    <path d="M 350 0 L 350 200 L 220 200 Q 300 100 220 0 Z" fill="url(#blueWave)" />
+                    <path d="M 350 60 Q 300 100 350 140 Z" fill="#ffffff" opacity="0.1" />
+
+                    <!-- Logo Area -->
+                    <g transform="translate(40, 75)">
+                        <path d="M 0 25 L 15 0 L 30 25 L 22 25 L 15 12 L 8 25 Z" fill="#3b82f6" />
+                        <path d="M 15 25 L 25 40 L 5 40 Z" fill="#06b6d4" />
+                        <text x="40" y="20" font-family="Arial, sans-serif" font-weight="bold" font-size="22"
+                            fill="white">NEXUS</text>
+                        <text x="40" y="35" font-family="Arial, sans-serif" font-size="8" fill="#94a3b8"
+                            letter-spacing="1.5">INNOVATIONS</text>
+                    </g>
+                </g>
+            </svg>
+        </div>
+
+        <!-- BACK SIDE -->
+        <div class="card-wrapper">
+            <span class="label">Back Side</span>
+            <svg width="525" height="300" viewBox="0 0 350 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <clipPath id="cardClipBack">
+                        <rect width="350" height="200" rx="10" />
+                    </clipPath>
+                    <!-- Solid Blue -->
+                    <linearGradient id="solidBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" style="stop-color:#0284c7;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+
+                <g clip-path="url(#cardClipBack)">
+                    <!-- White Background -->
+                    <rect width="350" height="200" fill="#ffffff" />
+
+                    <!-- Top Left Name Banner (Trapezoid) - Moved Up -->
+                    <polygon points="0,25 230,25 200,75 0,75" fill="url(#solidBlue)" />
+
+                    <!-- Right Side Geometric Shards -->
+                    <!-- Dark Top Triangle -->
+                    <path d="M 280 0 L 350 0 L 350 80 Z" fill="#1e293b" opacity="0.9" />
+
+                    <!-- Lighter Blue Top Triangle (Overlap) -->
+                    <path d="M 240 0 L 350 0 L 250 100 Z" fill="#bae6fd" opacity="0.6" />
+
+                    <!-- Main Blue Geometric Shape -->
+                    <path d="M 350 200 L 240 110 L 350 0 Z" fill="url(#solidBlue)" opacity="0.9" />
+
+                    <!-- Dark Bottom Accent -->
+                    <path d="M 280 200 L 350 200 L 350 150 Z" fill="#1e293b" />
+
+                    <!-- Decorative Line - Moved Up -->
+                    <path d="M 45 100 L 210 100 L 240 90" stroke="#0ea5e9" stroke-width="1.5" fill="none" />
+
+                    <!-- Name Text - Moved Up -->
+                    <text x="35" y="58" font-family="Arial, sans-serif" font-weight="bold" font-size="24"
+                        fill="white">ALEX HENRY</text>
+
+                    <!-- Title Text - Moved Up -->
+                    <text x="80" y="90" font-family="Arial, sans-serif" font-size="14" fill="#334155"
+                        letter-spacing="0.5">Business Manager</text>
+
+                    <!-- Contact Details Section - Compacted and Moved Up -->
+                    <g transform="translate(45, 115)">
+                        <!-- Phone -->
+                        <g>
+                            <rect x="0" y="0" width="22" height="22" fill="#0ea5e9" rx="3" />
+                            <!-- Handset Icon -->
+                            <path
+                                d="M6 6 C6 6 7 5 8 6 L 9 8 C 9 8 9 9 8 10 L 7 11 C 8 13 10 15 12 16 L 13 15 C 14 14 15 14 15 14 L 17 15 C 18 16 17 17 17 17 L 16 18 C 15 19 13 19 9 15 C 5 11 5 9 6 8 Z"
+                                fill="white" transform="translate(2,2) scale(0.8)" />
+
+                            <text x="32" y="9" font-family="Arial, sans-serif" font-size="9" fill="#475569"
+                                font-weight="bold">+1 234 567 8900</text>
+                            <text x="32" y="20" font-family="Arial, sans-serif" font-size="9" fill="#475569"
+                                font-weight="bold">+1 234 567 8900</text>
+                        </g>
+
+                        <!-- Email - Spacing Reduced -->
+                        <g transform="translate(0, 28)">
+                            <rect x="0" y="0" width="22" height="22" fill="#0ea5e9" rx="3" />
+                            <!-- Envelope Icon -->
+                            <path d="M2 4 L14 4 L14 10 L2 10 Z M2 4 L8 8 L14 4" stroke="white" stroke-width="1.5"
+                                fill="none" transform="translate(3, 5) scale(1)" />
+
+                            <text x="32" y="9" font-family="Arial, sans-serif" font-size="9" fill="#475569"
+                                font-weight="bold">alex@nexus.com</text>
+                            <text x="32" y="20" font-family="Arial, sans-serif" font-size="9" fill="#475569"
+                                font-weight="bold">contact@nexus.com</text>
+                        </g>
+
+                        <!-- Address - Spacing Reduced -->
+                        <g transform="translate(0, 56)">
+                            <rect x="0" y="0" width="22" height="22" fill="#1e293b" rx="3" />
+                            <!-- Map Pin Icon -->
+                            <path d="M8 3 C10 3 12 5 12 7 C12 10 8 13 8 13 C8 13 4 10 4 7 C4 5 6 3 8 3 Z" fill="none"
+                                stroke="white" stroke-width="1.5" transform="translate(3, 3) scale(1)" />
+                            <circle cx="11" cy="10" r="1.5" fill="white" />
+
+                            <text x="32" y="9" font-family="Arial, sans-serif" font-size="9" fill="#475569"
+                                font-weight="bold">123 Innovation Dr</text>
+                            <text x="32" y="20" font-family="Arial, sans-serif" font-size="9" fill="#475569"
+                                font-weight="bold">Tech City, Country</text>
+                        </g>
+                    </g>
+
+                </g>
+            </svg>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Light Background -->
+    <rect id="#bg" width="1050" height="600" fill="#f8fafc" />
+
+    <!-- Dark right panel -->
+    <rect x="580" y="0" width="470" height="600" fill="#1e1e2e" />
+
+    <!-- Red diagonal stripe connecting panels -->
+    <polygon id="#color_primary" points="540,0 620,0 580,600 500,600" fill="#dc2626" />
+
+    <!-- Secondary thin stripe -->
+    <polygon id="#color_accent" points="500,0 540,0 500,600 460,600" fill="#ef4444" opacity="0.3" />
+
+    <!-- Decorative dots on light panel -->
+    <g opacity="0.04">
+        <circle cx="80" cy="80" r="2" fill="#1e1e2e" />
+        <circle cx="120" cy="80" r="2" fill="#1e1e2e" />
+        <circle cx="160" cy="80" r="2" fill="#1e1e2e" />
+        <circle cx="80" cy="120" r="2" fill="#1e1e2e" />
+        <circle cx="120" cy="120" r="2" fill="#1e1e2e" />
+        <circle cx="160" cy="120" r="2" fill="#1e1e2e" />
+    </g>
+
+    <!-- Logo on light panel -->
+    <rect id="#logo" x="60" y="60" width="80" height="80" fill="#dc2626" rx="10" opacity="0.9" />
+
+    <!-- Name on light panel -->
+    <text id="#name" x="60" y="195" font-family="Inter, sans-serif" font-weight="700" font-size="40" fill="#1e1e2e">NAME SURNAME</text>
+
+    <!-- Title on light panel -->
+    <text id="#title" x="60" y="228" font-family="Inter, sans-serif" font-size="16" fill="#64748b" letter-spacing="2">SOLUTION MANAGER</text>
+
+    <!-- Divider -->
+    <rect id="#color_accent_divider" x="60" y="250" width="70" height="3" fill="#dc2626" rx="1" />
+
+    <!-- Contact - single left column -->
+    <circle id="#color_accent_phone_dot" cx="72" cy="285" r="4" fill="#dc2626" />
+    <text id="#phone" x="90" y="290" font-family="Inter, sans-serif" font-size="16" fill="#475569">+1 (555) 000-0000</text>
+
+    <circle id="#color_accent_email_dot" cx="72" cy="320" r="4" fill="#dc2626" />
+    <text id="#email" x="90" y="325" font-family="Inter, sans-serif" font-size="16" fill="#475569">hello@example.com</text>
+
+    <circle id="#color_accent_web_dot" cx="72" cy="355" r="4" fill="#dc2626" />
+    <text id="#website" x="90" y="360" font-family="Inter, sans-serif" font-size="16" fill="#475569">www.example.com</text>
+
+    <circle id="#color_accent_addr_dot" cx="72" cy="390" r="4" fill="#dc2626" />
+    <text id="#address" x="90" y="395" font-family="Inter, sans-serif" font-size="16" fill="#475569">123 Innovation Dr, Tech City</text>
+
+    <!-- Bottom accent -->
+    <rect id="#color_accent_bottom1" x="0" y="590" width="500" height="10" fill="#dc2626" opacity="0.08" />
+    <rect id="#color_accent_bottom2" x="580" y="590" width="470" height="10" fill="#dc2626" opacity="0.15" />
+</svg>

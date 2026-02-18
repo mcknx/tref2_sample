@@ -1,0 +1,64 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="gb_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- White background -->
+    <rect id="#bg" width="1050" height="600" fill="#ffffff" />
+
+    <!-- Dark header block -->
+    <rect x="0" y="0" width="1050" height="260" fill="url(#gb_grad)" />
+
+    <!-- Blue accent stripe cutting across -->
+    <polygon id="#color_primary" points="0,230 1050,200 1050,270 0,300" fill="#2563eb" />
+
+    <!-- Secondary color block - bottom right -->
+    <rect id="#color_secondary" x="700" y="320" width="350" height="280" fill="#f8fafc" />
+
+    <!-- Accent stripe - thin -->
+    <rect id="#color_accent" x="700" y="320" width="4" height="280" fill="#2563eb" />
+
+    <!-- Geometric decorative shapes on header -->
+    <polygon points="900,0 1050,0 1050,120" fill="#ffffff" opacity="0.04" />
+    <polygon points="950,0 1050,0 1050,80" fill="#ffffff" opacity="0.03" />
+
+    <!-- Small decorative triangles -->
+    <polygon id="#color_accent_tri1" points="0,0 60,0 0,60" fill="#2563eb" opacity="0.3" />
+    <polygon id="#color_accent_tri2" points="0,0 30,0 0,30" fill="#2563eb" opacity="0.5" />
+
+    <!-- Logo -->
+    <rect id="#logo" x="60" y="40" width="80" height="80" fill="#ffffff" rx="10" opacity="0.95" />
+
+    <!-- Name on dark header -->
+    <text id="#name" x="60" y="175" font-family="Inter, sans-serif" font-weight="700" font-size="44" fill="#ffffff">AMIR BRANDON</text>
+
+    <!-- Title on dark header -->
+    <text id="#title" x="60" y="208" font-family="Inter, sans-serif" font-size="16" fill="#94a3b8" letter-spacing="3">DESIGNER</text>
+
+    <!-- Contact details - single left column -->
+    <rect id="#color_accent_divider" x="60" y="310" width="80" height="3" fill="#2563eb" rx="1" />
+
+    <circle id="#color_accent_phone_dot" cx="72" cy="345" r="4" fill="#2563eb" />
+    <text id="#phone" x="90" y="350" font-family="Inter, sans-serif" font-size="16" fill="#334155">+1 (555) 000-0000</text>
+
+    <circle id="#color_accent_email_dot" cx="72" cy="380" r="4" fill="#2563eb" />
+    <text id="#email" x="90" y="385" font-family="Inter, sans-serif" font-size="16" fill="#334155">hello@example.com</text>
+
+    <circle id="#color_accent_web_dot" cx="72" cy="415" r="4" fill="#2563eb" />
+    <text id="#website" x="90" y="420" font-family="Inter, sans-serif" font-size="16" fill="#334155">www.example.com</text>
+
+    <circle id="#color_accent_addr_dot" cx="72" cy="450" r="4" fill="#2563eb" />
+    <text id="#address" x="90" y="455" font-family="Inter, sans-serif" font-size="16" fill="#334155">123 Innovation Dr, Tech City</text>
+
+    <!-- Right panel decorative content -->
+    <text x="740" y="400" font-family="Inter, sans-serif" font-weight="700" font-size="11" fill="#94a3b8" letter-spacing="3">AGENCY</text>
+    <rect id="#color_accent_deco" x="740" y="415" width="60" height="2" fill="#2563eb" opacity="0.4" />
+
+    <!-- Decorative hexagon shapes in right panel -->
+    <polygon points="900,450 920,438 940,450 940,470 920,482 900,470" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+    <polygon points="930,468 950,456 970,468 970,488 950,500 930,488" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+    <polygon points="870,468 890,456 910,468 910,488 890,500 870,488" fill="none" stroke="#e2e8f0" stroke-width="1.5" />
+</svg>

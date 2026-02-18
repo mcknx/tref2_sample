@@ -1,0 +1,202 @@
+[
+  {
+    "id": "2004:2",
+    "name": "Business Card",
+    "fabricJson": {
+      "version": "6.0.0",
+      "objects": [
+        {
+          "type": "rect",
+          "left": 20,
+          "top": 0,
+          "width": 34,
+          "height": 203,
+          "name": "Frame 2",
+          "fill": "rgba(216, 41, 36, 1)"
+        },
+        {
+          "type": "rect",
+          "left": 252.86207580566406,
+          "top": 131.86207580566406,
+          "width": 48.27586364746094,
+          "height": 48.27586364746094,
+          "name": "adobe-express-qr-code (3) 1",
+          "fill": "rgba(255, 255, 255, 1)"
+        },
+        {
+          "type": "textbox",
+          "left": 232,
+          "top": 81.23170471191406,
+          "width": 90,
+          "height": 14,
+          "name": "Creative Assets",
+          "text": "Creative Assets",
+          "fontSize": 11.536584854125977,
+          "fontFamily": "Inter",
+          "fontWeight": 700,
+          "fill": "rgba(0, 0, 0, 1)",
+          "textAlign": "left",
+          "splitByGrapheme": true
+        },
+        {
+          "type": "textbox",
+          "left": 247,
+          "top": 99.06097412109375,
+          "width": 60,
+          "height": 8,
+          "name": "Fast. Simple. Safe",
+          "text": "Fast. Simple. Safe",
+          "fontSize": 7,
+          "fontFamily": "Inter",
+          "fontWeight": 400,
+          "fill": "rgba(0, 0, 0, 1)",
+          "textAlign": "left",
+          "splitByGrapheme": true
+        },
+        {
+          "type": "textbox",
+          "left": 66,
+          "top": 20,
+          "width": 100,
+          "height": 19,
+          "name": "Mansi Shetty",
+          "text": "Mansi Shetty",
+          "fontSize": 16,
+          "fontFamily": "Inter",
+          "fontWeight": 600,
+          "fill": "rgba(0, 0, 0, 1)",
+          "textAlign": "left",
+          "splitByGrapheme": true
+        },
+        {
+          "type": "textbox",
+          "left": 66,
+          "top": 43,
+          "width": 83,
+          "height": 12,
+          "name": "Head - Marketing",
+          "text": "Head - Marketing",
+          "fontSize": 10,
+          "fontFamily": "Inter",
+          "fontWeight": 400,
+          "fill": "rgba(0, 0, 0, 1)",
+          "textAlign": "left",
+          "splitByGrapheme": true
+        },
+        {
+          "type": "textbox",
+          "left": 66,
+          "top": 88,
+          "width": 86,
+          "height": 12,
+          "name": "+91 22334 45566",
+          "text": "+91 22334 45566",
+          "fontSize": 10,
+          "fontFamily": "Inter",
+          "fontWeight": 400,
+          "fill": "rgba(0, 0, 0, 1)",
+          "textAlign": "left",
+          "splitByGrapheme": true
+        },
+        {
+          "type": "textbox",
+          "left": 66,
+          "top": 169,
+          "width": 114,
+          "height": 12,
+          "name": "www.creativeassets.pro",
+          "text": "www.creativeassets.pro",
+          "fontSize": 10,
+          "fontFamily": "Inter",
+          "fontWeight": 400,
+          "fill": "rgba(0, 0, 0, 1)",
+          "textAlign": "left",
+          "splitByGrapheme": true
+        },
+        {
+          "type": "textbox",
+          "left": 66,
+          "top": 115,
+          "width": 80,
+          "height": 12,
+          "name": "Mansi@mail.com",
+          "text": "Mansi@mail.com",
+          "fontSize": 10,
+          "fontFamily": "Inter",
+          "fontWeight": 400,
+          "fill": "rgba(0, 0, 0, 1)",
+          "textAlign": "left",
+          "splitByGrapheme": true
+        },
+        {
+          "type": "textbox",
+          "left": 66,
+          "top": 138,
+          "width": 117,
+          "height": 24,
+          "name": "Perundurai Rd, Erode, Tamil Nadu 638001",
+          "text": "Perundurai Rd, Erode, Tamil Nadu 638001",
+          "fontSize": 10,
+          "fontFamily": "Inter",
+          "fontWeight": 400,
+          "fill": "rgba(0, 0, 0, 1)",
+          "textAlign": "left",
+          "splitByGrapheme": true
+        },
+        {
+          "type": "rect",
+          "left": 252,
+          "top": 31.93902587890625,
+          "width": 49.29268264770508,
+          "height": 49.29268264770508,
+          "name": "Frame 5",
+          "fill": "#ffffff"
+        },
+        {
+          "type": "rect",
+          "left": 295,
+          "top": 127,
+          "width": 10.5,
+          "height": 10.5,
+          "name": "Vector 5",
+          "fill": "transparent",
+          "stroke": "rgba(216, 41, 36)",
+          "strokeWidth": 1
+        },
+        {
+          "type": "rect",
+          "left": 248.5,
+          "top": 174.5,
+          "width": 10.5,
+          "height": 10.5,
+          "name": "Vector 6",
+          "fill": "transparent",
+          "stroke": "rgba(216, 41, 36)",
+          "strokeWidth": 1
+        },
+        {
+          "type": "rect",
+          "left": 294.8620686868008,
+          "top": 173.3793025353726,
+          "width": 10.137931313199203,
+          "height": 10.137931313199175,
+          "name": "Vector 7",
+          "fill": "transparent",
+          "stroke": "rgba(216, 41, 36)",
+          "strokeWidth": 1
+        },
+        {
+          "type": "rect",
+          "left": 249,
+          "top": 128.48276615142822,
+          "width": 10.137931313199203,
+          "height": 10.137931313199175,
+          "name": "Vector 8",
+          "fill": "transparent",
+          "stroke": "rgba(216, 41, 36)",
+          "strokeWidth": 1
+        }
+      ]
+    }
+  }
+]

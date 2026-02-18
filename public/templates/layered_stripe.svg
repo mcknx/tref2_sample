@@ -1,0 +1,27 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+  <rect id="#bg" width="1050" height="600" fill="#fafaf9" />
+
+  <!-- Stacked horizontal stripes at bottom -->
+  <rect id="#color_primary" x="0" y="440" width="1050" height="160" fill="#1c1917" />
+  <rect id="#color_accent" x="0" y="440" width="1050" height="6" fill="#e11d48" />
+  <rect id="#color_accent_stripe2" x="0" y="452" width="700" height="2" fill="#e11d48" opacity="0.3" />
+  <rect id="#color_accent_stripe3" x="0" y="460" width="400" height="1" fill="#e11d48" opacity="0.15" />
+
+  <!-- Top-right geometric shape -->
+  <polygon id="#color_accent_geo" points="850,0 1050,0 1050,120" fill="#e11d48" opacity="0.1" />
+  <rect id="#color_accent_topbar" x="0" y="0" width="1050" height="3" fill="#e11d48" />
+
+  <!-- Thin vertical separator -->
+  <rect id="#color_accent_vsep" x="520" y="80" width="2" height="320" fill="#e11d48" opacity="0.15" />
+
+  <rect id="#logo" x="60" y="50" width="80" height="80" rx="10" fill="#f5f5f4" />
+
+  <text id="#name" x="60" y="190" font-family="Inter, sans-serif" font-size="42" font-weight="700" fill="#1c1917">FULL NAME</text>
+  <text id="#title" x="60" y="222" font-family="Inter, sans-serif" font-size="17" letter-spacing="3" fill="#e11d48">JOB TITLE</text>
+  <rect id="#color_accent_divider" x="60" y="244" width="70" height="3" rx="1" fill="#e11d48" />
+
+  <text id="#phone" x="560" y="120" font-family="Inter, sans-serif" font-size="16" fill="#57534e">+1 (555) 000-0000</text>
+  <text id="#email" x="560" y="155" font-family="Inter, sans-serif" font-size="16" fill="#57534e">hello@example.com</text>
+  <text id="#website" x="560" y="190" font-family="Inter, sans-serif" font-size="16" fill="#57534e">www.example.com</text>
+  <text id="#address" x="560" y="225" font-family="Inter, sans-serif" font-size="16" fill="#57534e">123 Innovation Dr, Tech City</text>
+</svg>

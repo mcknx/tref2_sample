@@ -1,0 +1,52 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="sc_dark" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- Dark Background -->
+    <rect id="#bg" width="1050" height="600" fill="url(#sc_dark)" />
+
+    <!-- Bold red wave curve -->
+    <path id="#color_primary" d="M 0 350 Q 250 200 525 350 Q 800 500 1050 350 L 1050 600 L 0 600 Z" fill="#dc2626" />
+
+    <!-- Darker red shadow curve -->
+    <path id="#color_accent_shadow" d="M 0 400 Q 250 280 525 400 Q 800 520 1050 400 L 1050 600 L 0 600 Z" fill="#000000" opacity="0.2" />
+
+    <!-- Accent line curve -->
+    <path id="#color_accent_line" d="M 0 345 Q 250 195 525 345 Q 800 495 1050 345" fill="none" stroke="#ef4444" stroke-width="2" opacity="0.4" />
+
+    <!-- Top right geometric accent -->
+    <polygon id="#color_accent" points="920,0 1050,0 1050,100 970,60" fill="#dc2626" opacity="0.2" />
+
+    <!-- Decorative circles -->
+    <circle cx="900" cy="80" r="30" fill="#ffffff" opacity="0.03" />
+    <circle cx="940" cy="120" r="20" fill="#ffffff" opacity="0.02" />
+
+    <!-- Logo -->
+    <rect id="#logo" x="60" y="50" width="80" height="80" fill="#dc2626" rx="12" />
+
+    <!-- Name -->
+    <text id="#name" x="60" y="185" font-family="Inter, sans-serif" font-weight="700" font-size="44" fill="#ffffff">BRAND LOGO</text>
+
+    <!-- Title -->
+    <text id="#title" x="60" y="218" font-family="Inter, sans-serif" font-size="16" fill="#94a3b8" letter-spacing="3">BUSINESS GOES HERE</text>
+
+    <!-- Divider -->
+    <rect id="#color_accent_divider" x="60" y="240" width="80" height="3" fill="#dc2626" rx="1" />
+
+    <!-- Contact - single left column -->
+    <circle id="#color_accent_phone_dot" cx="72" cy="275" r="4" fill="#ffffff" opacity="0.6" />
+    <text id="#phone" x="90" y="280" font-family="Inter, sans-serif" font-size="16" fill="#ffffff">+1 (555) 000-0000</text>
+
+    <circle id="#color_accent_email_dot" cx="72" cy="310" r="4" fill="#ffffff" opacity="0.6" />
+    <text id="#email" x="90" y="315" font-family="Inter, sans-serif" font-size="16" fill="#ffffff">hello@example.com</text>
+
+    <circle id="#color_accent_web_dot" cx="72" cy="345" r="4" fill="#ffffff" opacity="0.6" />
+    <text id="#website" x="90" y="350" font-family="Inter, sans-serif" font-size="16" fill="#ffffff">www.example.com</text>
+
+    <circle id="#color_accent_addr_dot" cx="72" cy="380" r="4" fill="#ffffff" opacity="0.6" />
+    <text id="#address" x="90" y="385" font-family="Inter, sans-serif" font-size="16" fill="#ffffff">123 Innovation Dr, Tech City</text>
+</svg>

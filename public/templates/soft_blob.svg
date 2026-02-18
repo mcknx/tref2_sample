@@ -1,0 +1,35 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+  <rect id="#bg" width="1050" height="600" fill="#faf5ff" />
+
+  <!-- Organic blob shapes -->
+  <ellipse id="#color_primary" cx="900" cy="300" rx="280" ry="340" fill="#7c3aed" opacity="0.06" transform="rotate(-15 900 300)" />
+  <ellipse id="#color_accent" cx="850" cy="250" rx="180" ry="220" fill="#a855f7" opacity="0.08" transform="rotate(10 850 250)" />
+  <ellipse id="#color_accent_blob2" cx="180" cy="500" rx="160" ry="140" fill="#7c3aed" opacity="0.04" transform="rotate(-20 180 500)" />
+
+  <!-- Floating small circles -->
+  <circle id="#color_accent_float1" cx="750" cy="80" r="8" fill="#a855f7" opacity="0.2" />
+  <circle id="#color_accent_float2" cx="920" cy="520" r="12" fill="#7c3aed" opacity="0.15" />
+  <circle id="#color_accent_float3" cx="680" cy="450" r="6" fill="#a855f7" opacity="0.25" />
+  <circle id="#color_accent_float4" cx="980" cy="150" r="4" fill="#7c3aed" opacity="0.3" />
+
+  <!-- Left accent -->
+  <rect id="#color_accent_leftbar" x="0" y="100" width="4" height="400" rx="2" fill="#7c3aed" />
+
+  <rect id="#logo" x="60" y="50" width="80" height="80" rx="40" fill="#f3e8ff" />
+
+  <text id="#name" x="60" y="195" font-family="Inter, sans-serif" font-size="44" font-weight="700" fill="#1e1b4b">FULL NAME</text>
+  <text id="#title" x="60" y="228" font-family="Inter, sans-serif" font-size="18" letter-spacing="2" fill="#7c3aed">JOB TITLE</text>
+  <rect id="#color_accent_divider" x="60" y="248" width="70" height="3" rx="1.5" fill="#a855f7" />
+
+  <circle id="#color_accent_phone_dot" cx="72" cy="288" r="4" fill="#7c3aed" />
+  <text id="#phone" x="90" y="293" font-family="Inter, sans-serif" font-size="16" fill="#6b7280">+1 (555) 000-0000</text>
+
+  <circle id="#color_accent_email_dot" cx="72" cy="323" r="4" fill="#7c3aed" />
+  <text id="#email" x="90" y="328" font-family="Inter, sans-serif" font-size="16" fill="#6b7280">hello@example.com</text>
+
+  <circle id="#color_accent_web_dot" cx="72" cy="358" r="4" fill="#7c3aed" />
+  <text id="#website" x="90" y="363" font-family="Inter, sans-serif" font-size="16" fill="#6b7280">www.example.com</text>
+
+  <circle id="#color_accent_addr_dot" cx="72" cy="393" r="4" fill="#7c3aed" />
+  <text id="#address" x="90" y="398" font-family="Inter, sans-serif" font-size="16" fill="#6b7280">123 Innovation Dr, Tech City</text>
+</svg>

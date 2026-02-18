@@ -1,0 +1,49 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Gray Background -->
+    <rect id="#bg" width="1050" height="600" fill="#f3f4f6" />
+
+    <!-- Dark header block -->
+    <rect x="0" y="0" width="1050" height="240" fill="#1e1e2e" />
+
+    <!-- Red chevron shape cutting across -->
+    <polygon id="#color_primary" points="0,200 1050,160 1050,280 0,320" fill="#dc2626" />
+
+    <!-- Dark shadow on chevron -->
+    <polygon points="500,180 1050,160 1050,220 500,240" fill="#000000" opacity="0.15" />
+
+    <!-- Small accent chevron -->
+    <polygon id="#color_accent" points="0,310 300,290 300,330 0,350" fill="#ef4444" opacity="0.3" />
+
+    <!-- Decorative angular lines on header -->
+    <line x1="700" y1="30" x2="800" y2="30" stroke="#ffffff" stroke-width="1" opacity="0.1" />
+    <line x1="720" y1="50" x2="800" y2="50" stroke="#ffffff" stroke-width="1" opacity="0.08" />
+    <line x1="740" y1="70" x2="800" y2="70" stroke="#ffffff" stroke-width="1" opacity="0.06" />
+
+    <!-- Logo -->
+    <rect id="#logo" x="60" y="40" width="80" height="80" fill="#ffffff" rx="10" />
+
+    <!-- Name on dark header -->
+    <text id="#name" x="60" y="170" font-family="Inter, sans-serif" font-weight="700" font-size="38" fill="#ffffff">MICHAL JOHNS</text>
+
+    <!-- Title on dark header -->
+    <text id="#title" x="60" y="198" font-family="Inter, sans-serif" font-size="16" fill="#94a3b8" letter-spacing="2">GRAPHIC DESIGNER</text>
+
+    <!-- Contact section on light area below chevron -->
+    <rect id="#color_accent_divider" x="60" y="345" width="80" height="3" fill="#dc2626" rx="1" />
+
+    <circle id="#color_accent_phone_dot" cx="72" cy="380" r="4" fill="#dc2626" />
+    <text id="#phone" x="90" y="385" font-family="Inter, sans-serif" font-size="16" fill="#334155">+1 (555) 000-0000</text>
+
+    <circle id="#color_accent_email_dot" cx="72" cy="415" r="4" fill="#dc2626" />
+    <text id="#email" x="90" y="420" font-family="Inter, sans-serif" font-size="16" fill="#334155">hello@example.com</text>
+
+    <circle id="#color_accent_web_dot" cx="72" cy="450" r="4" fill="#dc2626" />
+    <text id="#website" x="90" y="455" font-family="Inter, sans-serif" font-size="16" fill="#334155">www.example.com</text>
+
+    <circle id="#color_accent_addr_dot" cx="72" cy="485" r="4" fill="#dc2626" />
+    <text id="#address" x="90" y="490" font-family="Inter, sans-serif" font-size="16" fill="#334155">123 Innovation Dr, Tech City</text>
+
+    <!-- Bottom red accent line -->
+    <rect id="#color_accent_bottom_bg" x="0" y="585" width="1050" height="15" fill="#dc2626" opacity="0.1" />
+    <rect id="#color_accent_bottom" x="0" y="592" width="300" height="8" fill="#dc2626" />
+</svg>

@@ -1,0 +1,52 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <clipPath id="cw_clip">
+            <rect width="1050" height="600" />
+        </clipPath>
+    </defs>
+
+    <!-- White Background -->
+    <rect id="#bg" width="1050" height="600" fill="#ffffff" />
+
+    <!-- Blue wave shape - right side -->
+    <path id="#color_primary" d="M 650 0 Q 580 150 620 300 Q 660 450 600 600 L 1050 600 L 1050 0 Z" fill="#2563eb" />
+
+    <!-- Lighter overlay wave -->
+    <path d="M 700 0 Q 640 180 680 350 Q 720 500 660 600 L 1050 600 L 1050 0 Z" fill="#ffffff" opacity="0.1" />
+
+    <!-- Subtle wave line -->
+    <path d="M 680 0 Q 615 160 650 320 Q 690 470 630 600" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.3" />
+
+    <!-- Top accent line -->
+    <rect id="#color_accent" x="0" y="0" width="600" height="5" fill="#1d4ed8" />
+
+    <!-- Logo Placeholder -->
+    <rect id="#logo" x="60" y="50" width="80" height="80" fill="#eff6ff" rx="10" />
+
+    <!-- Name -->
+    <text id="#name" x="60" y="185" font-family="Inter, sans-serif" font-weight="700" font-size="44" fill="#1e293b">Business Name</text>
+
+    <!-- Tagline -->
+    <text id="#title" x="60" y="218" font-family="Inter, sans-serif" font-size="18" fill="#64748b" letter-spacing="2">Your Tagline Here</text>
+
+    <!-- Thin divider -->
+    <rect id="#color_accent_divider" x="60" y="240" width="80" height="3" fill="#2563eb" rx="1" />
+
+    <!-- Contact Info - single left column -->
+    <circle id="#color_accent_phone_dot" cx="72" cy="275" r="4" fill="#2563eb" />
+    <text id="#phone" x="90" y="280" font-family="Inter, sans-serif" font-size="16" fill="#475569">+1 (555) 000-0000</text>
+
+    <circle id="#color_accent_email_dot" cx="72" cy="310" r="4" fill="#2563eb" />
+    <text id="#email" x="90" y="315" font-family="Inter, sans-serif" font-size="16" fill="#475569">hello@example.com</text>
+
+    <circle id="#color_accent_web_dot" cx="72" cy="345" r="4" fill="#2563eb" />
+    <text id="#website" x="90" y="350" font-family="Inter, sans-serif" font-size="16" fill="#475569">www.example.com</text>
+
+    <circle id="#color_accent_addr_dot" cx="72" cy="380" r="4" fill="#2563eb" />
+    <text id="#address" x="90" y="385" font-family="Inter, sans-serif" font-size="16" fill="#475569">123 Innovation Dr, Tech City</text>
+
+    <!-- Decorative circles on the blue area -->
+    <circle cx="900" cy="120" r="80" fill="#ffffff" opacity="0.06" />
+    <circle cx="950" cy="200" r="50" fill="#ffffff" opacity="0.04" />
+    <circle cx="820" cy="450" r="60" fill="#ffffff" opacity="0.05" />
+</svg>

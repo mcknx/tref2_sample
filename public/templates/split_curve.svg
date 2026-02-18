@@ -1,0 +1,28 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+  <rect id="#bg" width="1050" height="600" fill="#ffffff" />
+
+  <path id="#color_primary" d="M0,0 H420 C520,140 500,460 390,600 H0 Z" fill="#0f172a" />
+  <path id="#color_accent" d="M360,0 H450 C535,150 515,460 420,600 H330 C430,460 445,150 360,0 Z" fill="#2563eb" opacity="0.9" />
+
+  <circle cx="140" cy="160" r="72" fill="#ffffff" opacity="0.08" />
+  <circle cx="210" cy="260" r="40" fill="#ffffff" opacity="0.08" />
+  <circle cx="120" cy="420" r="58" fill="#ffffff" opacity="0.08" />
+
+  <rect id="#logo" x="480" y="60" width="80" height="80" rx="10" fill="#eff6ff" />
+
+  <text id="#name" x="480" y="195" font-family="Inter, sans-serif" font-size="44" font-weight="700" fill="#0f172a">FULL NAME</text>
+  <text id="#title" x="480" y="228" font-family="Inter, sans-serif" font-size="18" letter-spacing="2" fill="#64748b">JOB TITLE</text>
+  <rect id="#color_accent_divider" x="480" y="250" width="80" height="3" rx="1" fill="#2563eb" />
+
+  <circle id="#color_accent_phone_dot" cx="492" cy="285" r="4" fill="#2563eb" />
+  <text id="#phone" x="510" y="290" font-family="Inter, sans-serif" font-size="16" fill="#475569">+1 (555) 000-0000</text>
+
+  <circle id="#color_accent_email_dot" cx="492" cy="320" r="4" fill="#2563eb" />
+  <text id="#email" x="510" y="325" font-family="Inter, sans-serif" font-size="16" fill="#475569">hello@example.com</text>
+
+  <circle id="#color_accent_web_dot" cx="492" cy="355" r="4" fill="#2563eb" />
+  <text id="#website" x="510" y="360" font-family="Inter, sans-serif" font-size="16" fill="#475569">www.example.com</text>
+
+  <circle id="#color_accent_addr_dot" cx="492" cy="390" r="4" fill="#2563eb" />
+  <text id="#address" x="510" y="395" font-family="Inter, sans-serif" font-size="16" fill="#475569">123 Innovation Dr, Tech City</text>
+</svg>

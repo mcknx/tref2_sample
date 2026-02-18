@@ -1,0 +1,42 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- White Background -->
+    <rect id="#bg" width="1050" height="600" fill="#ffffff" />
+
+    <!-- Large dark triangle - bottom left -->
+    <polygon id="#color_secondary" points="0,250 0,600 500,600" fill="#1e1e2e" />
+
+    <!-- Red triangle overlay -->
+    <polygon id="#color_primary" points="0,350 0,600 350,600" fill="#dc2626" />
+
+    <!-- Small accent triangle - top right -->
+    <polygon id="#color_accent" points="900,0 1050,0 1050,150" fill="#dc2626" opacity="0.15" />
+    <polygon id="#color_accent_tri2" points="950,0 1050,0 1050,100" fill="#dc2626" opacity="0.25" />
+
+    <!-- Decorative red line -->
+    <line id="#color_accent_line" x1="0" y1="245" x2="450" y2="245" stroke="#dc2626" stroke-width="2" opacity="0.3" />
+
+    <!-- Logo -->
+    <rect id="#logo" x="60" y="50" width="80" height="80" fill="#f1f5f9" rx="10" />
+
+    <!-- Name -->
+    <text id="#name" x="60" y="185" font-family="Inter, sans-serif" font-weight="700" font-size="44" fill="#1e1e2e">ALEX ANDERSON</text>
+
+    <!-- Title -->
+    <text id="#title" x="60" y="218" font-family="Inter, sans-serif" font-size="16" fill="#64748b" letter-spacing="2">MARKETING MANAGER</text>
+
+    <!-- Divider -->
+    <rect id="#color_accent_divider" x="60" y="240" width="80" height="3" fill="#dc2626" rx="1" />
+
+    <!-- Contact - single left column -->
+    <circle id="#color_accent_phone_dot" cx="72" cy="275" r="4" fill="#dc2626" />
+    <text id="#phone" x="90" y="280" font-family="Inter, sans-serif" font-size="16" fill="#475569">+1 (555) 000-0000</text>
+
+    <circle id="#color_accent_email_dot" cx="72" cy="310" r="4" fill="#dc2626" />
+    <text id="#email" x="90" y="315" font-family="Inter, sans-serif" font-size="16" fill="#475569">hello@example.com</text>
+
+    <circle id="#color_accent_web_dot" cx="72" cy="345" r="4" fill="#dc2626" />
+    <text id="#website" x="90" y="350" font-family="Inter, sans-serif" font-size="16" fill="#475569">www.example.com</text>
+
+    <circle id="#color_accent_addr_dot" cx="72" cy="380" r="4" fill="#dc2626" />
+    <text id="#address" x="90" y="385" font-family="Inter, sans-serif" font-size="16" fill="#475569">123 Innovation Dr, Tech City</text>
+</svg>

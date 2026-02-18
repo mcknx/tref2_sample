@@ -1,0 +1,50 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- White Background -->
+    <rect id="#bg" width="1050" height="600" fill="#ffffff" />
+
+    <!-- Large diagonal blue shape - top right -->
+    <polygon id="#color_primary" points="550,0 1050,0 1050,450 750,600 450,350" fill="#2563eb" />
+
+    <!-- Darker overlay triangle -->
+    <polygon id="#color_accent_shadow" points="1050,0 1050,350 750,350" fill="#1e40af" opacity="0.4" />
+
+    <!-- Small accent triangle -->
+    <polygon id="#color_accent" points="450,350 550,0 600,0 500,350" fill="#60a5fa" opacity="0.7" />
+
+    <!-- Bottom decorative strip -->
+    <rect x="0" y="580" width="1050" height="20" fill="#f8fafc" />
+    <rect id="#color_accent_strip" x="0" y="580" width="400" height="20" fill="#2563eb" opacity="0.08" />
+
+    <!-- Logo area -->
+    <rect id="#logo" x="60" y="50" width="80" height="80" fill="#f1f5f9" rx="10" />
+
+    <!-- Name -->
+    <text id="#name" x="60" y="185" font-family="Inter, sans-serif" font-weight="700" font-size="44" fill="#1e293b">CREATIVE</text>
+
+    <!-- Title -->
+    <text id="#title" x="60" y="218" font-family="Inter, sans-serif" font-size="18" fill="#64748b" letter-spacing="3">DESIGN SOLUTION</text>
+
+    <!-- Divider -->
+    <rect id="#color_accent_divider" x="60" y="240" width="80" height="3" fill="#2563eb" rx="1" />
+
+    <!-- Contact Section -->
+    <circle id="#color_accent_phone_dot" cx="72" cy="275" r="4" fill="#2563eb" />
+    <text id="#phone" x="90" y="280" font-family="Inter, sans-serif" font-size="16" fill="#475569">+1 (555) 000-0000</text>
+
+    <circle id="#color_accent_email_dot" cx="72" cy="310" r="4" fill="#2563eb" />
+    <text id="#email" x="90" y="315" font-family="Inter, sans-serif" font-size="16" fill="#475569">hello@example.com</text>
+
+    <circle id="#color_accent_web_dot" cx="72" cy="345" r="4" fill="#2563eb" />
+    <text id="#website" x="90" y="350" font-family="Inter, sans-serif" font-size="16" fill="#475569">www.example.com</text>
+
+    <circle id="#color_accent_addr_dot" cx="72" cy="380" r="4" fill="#2563eb" />
+    <text id="#address" x="90" y="385" font-family="Inter, sans-serif" font-size="16" fill="#475569">123 Innovation Dr, Tech City</text>
+
+    <!-- Name on blue area (white text) -->
+    <text x="700" y="520" font-family="Inter, sans-serif" font-weight="700" font-size="14" fill="#ffffff" opacity="0.6" letter-spacing="3">CREATIVE PRO</text>
+
+    <!-- Decorative white lines on blue -->
+    <line x1="850" y1="100" x2="950" y2="100" stroke="#ffffff" stroke-width="1" opacity="0.2" />
+    <line x1="880" y1="120" x2="950" y2="120" stroke="#ffffff" stroke-width="1" opacity="0.15" />
+    <line x1="900" y1="140" x2="950" y2="140" stroke="#ffffff" stroke-width="1" opacity="0.1" />
+</svg>

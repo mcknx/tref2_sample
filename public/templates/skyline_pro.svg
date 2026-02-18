@@ -1,0 +1,49 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- White background -->
+    <rect id="#bg" width="1050" height="600" fill="#ffffff" />
+
+    <!-- Top blue accent bar -->
+    <rect id="#color_primary" x="0" y="0" width="1050" height="6" fill="#0ea5e9" />
+
+    <!-- Bottom section - light blue band -->
+    <rect id="#color_accent" x="0" y="480" width="1050" height="120" fill="#0ea5e9" />
+
+    <!-- Diagonal cut on bottom band -->
+    <polygon id="#color_accent_diag" points="0,480 1050,520 1050,600 0,600" fill="#0284c7" opacity="0.5" />
+
+    <!-- White triangle overlay for depth -->
+    <polygon points="600,480 1050,500 1050,520" fill="#ffffff" opacity="0.15" />
+
+    <!-- Subtle geometric accent - top right -->
+    <rect id="#color_accent_geo1" x="920" y="30" width="100" height="100" fill="#f0f9ff" rx="4" />
+    <rect id="#color_accent_geo2" x="940" y="50" width="60" height="60" fill="#e0f2fe" rx="4" />
+
+    <!-- Logo -->
+    <rect id="#logo" x="60" y="40" width="80" height="80" fill="#f0f9ff" rx="10" />
+
+    <!-- Name -->
+    <text id="#name" x="60" y="180" font-family="Inter, sans-serif" font-weight="700" font-size="44" fill="#0f172a">MICHAEL JOHNSON</text>
+
+    <!-- Title -->
+    <text id="#title" x="60" y="213" font-family="Inter, sans-serif" font-size="18" fill="#64748b" letter-spacing="2">MARKETING MANAGER</text>
+
+    <!-- Divider -->
+    <rect id="#color_accent_divider" x="60" y="235" width="80" height="3" fill="#0ea5e9" rx="1" />
+
+    <!-- Contact - single left column -->
+    <circle id="#color_accent_phone_dot" cx="72" cy="270" r="4" fill="#0ea5e9" />
+    <text id="#phone" x="90" y="275" font-family="Inter, sans-serif" font-size="16" fill="#334155">+1 (555) 000-0000</text>
+
+    <circle id="#color_accent_email_dot" cx="72" cy="305" r="4" fill="#0ea5e9" />
+    <text id="#email" x="90" y="310" font-family="Inter, sans-serif" font-size="16" fill="#334155">hello@example.com</text>
+
+    <circle id="#color_accent_web_dot" cx="72" cy="340" r="4" fill="#0ea5e9" />
+    <text id="#website" x="90" y="345" font-family="Inter, sans-serif" font-size="16" fill="#334155">www.example.com</text>
+
+    <circle id="#color_accent_addr_dot" cx="72" cy="375" r="4" fill="#0ea5e9" />
+    <text id="#address" x="90" y="380" font-family="Inter, sans-serif" font-size="16" fill="#334155">123 Innovation Dr, Tech City</text>
+
+    <!-- Bottom band text -->
+    <text x="60" y="545" font-family="Inter, sans-serif" font-weight="700" font-size="14" fill="#ffffff" opacity="0.9" letter-spacing="2">GRAPHIC PATH</text>
+    <text x="60" y="565" font-family="Inter, sans-serif" font-size="11" fill="#ffffff" opacity="0.6">Professional Design Studio</text>
+</svg>

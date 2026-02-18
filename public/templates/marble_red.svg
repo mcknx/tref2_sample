@@ -1,0 +1,57 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Marble-like texture pattern -->
+        <pattern id="marble" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+            <rect width="200" height="200" fill="#f8f9fa" />
+            <path d="M0 50 Q50 30 100 50 Q150 70 200 50" fill="none" stroke="#e5e7eb" stroke-width="0.8" opacity="0.6" />
+            <path d="M0 100 Q80 80 150 100 Q180 110 200 100" fill="none" stroke="#d1d5db" stroke-width="0.5" opacity="0.4" />
+            <path d="M0 150 Q60 140 120 155 Q170 165 200 150" fill="none" stroke="#e5e7eb" stroke-width="0.6" opacity="0.5" />
+            <path d="M50 0 Q40 50 55 100 Q65 150 50 200" fill="none" stroke="#e5e7eb" stroke-width="0.4" opacity="0.3" />
+            <path d="M150 0 Q140 60 155 120 Q165 170 150 200" fill="none" stroke="#d1d5db" stroke-width="0.5" opacity="0.3" />
+        </pattern>
+    </defs>
+
+    <!-- Marble Background -->
+    <rect id="#bg" width="1050" height="600" fill="url(#marble)" />
+
+    <!-- Dark block on left -->
+    <rect x="0" y="0" width="420" height="600" fill="#1e1e2e" />
+
+    <!-- Red accent stripe -->
+    <rect id="#color_primary" x="420" y="0" width="8" height="600" fill="#dc2626" />
+
+    <!-- Small red triangle accent -->
+    <polygon id="#color_accent" points="420,250 470,280 420,310" fill="#dc2626" opacity="0.6" />
+
+    <!-- Red bottom accent on dark panel -->
+    <rect id="#color_accent_bottom" x="0" y="560" width="420" height="40" fill="#dc2626" opacity="0.1" />
+
+    <!-- Logo on dark panel -->
+    <rect id="#logo" x="60" y="60" width="80" height="80" fill="#dc2626" rx="10" />
+
+    <!-- Name on dark panel -->
+    <text id="#name" x="60" y="195" font-family="Inter, sans-serif" font-weight="700" font-size="36" fill="#ffffff">CODE PRO</text>
+
+    <!-- Title on dark panel -->
+    <text id="#title" x="60" y="225" font-family="Inter, sans-serif" font-size="14" fill="#94a3b8" letter-spacing="2">VISUAL ART STUDIO</text>
+
+    <!-- Divider -->
+    <rect id="#color_accent_divider" x="60" y="245" width="60" height="2" fill="#dc2626" />
+
+    <!-- Contact - single left column on dark panel -->
+    <circle id="#color_accent_phone_dot" cx="70" cy="278" r="4" fill="#dc2626" />
+    <text id="#phone" x="85" y="283" font-family="Inter, sans-serif" font-size="14" fill="#cbd5e1">+1 (555) 000-0000</text>
+
+    <circle id="#color_accent_email_dot" cx="70" cy="308" r="4" fill="#dc2626" />
+    <text id="#email" x="85" y="313" font-family="Inter, sans-serif" font-size="14" fill="#cbd5e1">hello@example.com</text>
+
+    <circle id="#color_accent_web_dot" cx="70" cy="338" r="4" fill="#dc2626" />
+    <text id="#website" x="85" y="343" font-family="Inter, sans-serif" font-size="14" fill="#cbd5e1">www.example.com</text>
+
+    <circle id="#color_accent_addr_dot" cx="70" cy="368" r="4" fill="#dc2626" />
+    <text id="#address" x="85" y="373" font-family="Inter, sans-serif" font-size="14" fill="#cbd5e1">123 Innovation Dr, Tech City</text>
+
+    <!-- Decorative element on marble side -->
+    <rect id="#color_accent_deco1" x="900" y="500" width="100" height="2" fill="#dc2626" opacity="0.3" />
+    <rect id="#color_accent_deco2" x="930" y="515" width="70" height="2" fill="#dc2626" opacity="0.2" />
+</svg>

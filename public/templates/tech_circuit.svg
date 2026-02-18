@@ -1,0 +1,38 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+  <rect id="#bg" width="1050" height="600" fill="#ffffff" />
+
+  <rect id="#color_primary" x="680" y="0" width="370" height="600" fill="#0b1324" />
+  <rect id="#color_accent" x="0" y="0" width="680" height="6" fill="#06b6d4" />
+
+  <g opacity="0.28" stroke="#67e8f9" fill="none" stroke-width="2">
+    <path d="M720 80 H820 V140 H960" />
+    <path d="M760 180 H900 V240 H1000" />
+    <path d="M700 300 H810 V360 H940" />
+    <path d="M760 420 H920 V500 H1000" />
+  </g>
+  <g fill="#67e8f9" opacity="0.5">
+    <circle cx="820" cy="140" r="6" />
+    <circle cx="960" cy="140" r="6" />
+    <circle cx="900" cy="240" r="6" />
+    <circle cx="940" cy="360" r="6" />
+    <circle cx="920" cy="500" r="6" />
+  </g>
+
+  <rect id="#logo" x="60" y="50" width="80" height="80" rx="10" fill="#ecfeff" />
+
+  <text id="#name" x="60" y="185" font-family="Inter, sans-serif" font-size="44" font-weight="700" fill="#0f172a">FULL NAME</text>
+  <text id="#title" x="60" y="218" font-family="Inter, sans-serif" font-size="18" letter-spacing="2" fill="#64748b">JOB TITLE</text>
+  <rect id="#color_accent_divider" x="60" y="240" width="80" height="3" rx="1" fill="#06b6d4" />
+
+  <circle id="#color_accent_phone_dot" cx="72" cy="275" r="4" fill="#06b6d4" />
+  <text id="#phone" x="90" y="280" font-family="Inter, sans-serif" font-size="16" fill="#475569">+1 (555) 000-0000</text>
+
+  <circle id="#color_accent_email_dot" cx="72" cy="310" r="4" fill="#06b6d4" />
+  <text id="#email" x="90" y="315" font-family="Inter, sans-serif" font-size="16" fill="#475569">hello@example.com</text>
+
+  <circle id="#color_accent_web_dot" cx="72" cy="345" r="4" fill="#06b6d4" />
+  <text id="#website" x="90" y="350" font-family="Inter, sans-serif" font-size="16" fill="#475569">www.example.com</text>
+
+  <circle id="#color_accent_addr_dot" cx="72" cy="380" r="4" fill="#06b6d4" />
+  <text id="#address" x="90" y="385" font-family="Inter, sans-serif" font-size="16" fill="#475569">123 Innovation Dr, Tech City</text>
+</svg>
